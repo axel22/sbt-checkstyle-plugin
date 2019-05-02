@@ -62,7 +62,9 @@ object Checkstyle {
 
       if (issuesFound > 0) {
         log.error(issuesFound + " issue(s) found in Checkstyle report: " + outputLocation + "")
-        sys.exit(1)
+        // https://imgflip.com/i/3009d6
+        // sys.exit(1)
+        sys.error("Checkstyle failed.")
       }
     }
   }

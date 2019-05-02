@@ -1,10 +1,10 @@
 name := "sbt-checkstyle-plugin"
-organization := "com.etsy"
+organization := "io.reactors"
 
-version := "3.1.2-SNAPSHOT"
+version := "3.3"
 
 sbtPlugin := true
-crossSbtVersions := Seq("0.13.16", "1.1.0")
+crossSbtVersions := Seq("1.1.0")
 
 libraryDependencies ++= Seq(
   "com.puppycrawl.tools"      %  "checkstyle"   % "6.15",
@@ -17,7 +17,7 @@ libraryDependencies ++= Seq(
 xerial.sbt.Sonatype.sonatypeSettings
 publishTo := sonatypePublishTo.value
 
-pomExtra := <url>https://github.com/etsy/sbt-checkstyle-plugin</url>
+pomExtra := <url>https://github.com/axel22/sbt-checkstyle-plugin</url>
   <licenses>
     <license>
       <name>MIT License</name>
@@ -26,8 +26,8 @@ pomExtra := <url>https://github.com/etsy/sbt-checkstyle-plugin</url>
     </license>
   </licenses>
   <scm>
-    <url>git@github.com:etsy/sbt-checkstyle-plugin.git</url>
-    <connection>scm:git:git@github.com:etsy/sbt-checkstyle-plugin.git</connection>
+    <url>git@github.com:axel22/sbt-checkstyle-plugin.git</url>
+    <connection>scm:git:git@github.com:axel22/sbt-checkstyle-plugin.git</connection>
   </scm>
   <developers>
     <developer>
